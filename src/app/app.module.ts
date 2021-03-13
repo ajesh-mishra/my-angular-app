@@ -7,9 +7,6 @@ import { AppComponent } from './app.component';
 import { MyMaterialModule } from './my-material.module';
 import { LayoutComponent } from './layout/layout.component';
 
-// import { MatToolbarModule } from '@angular/material/toolbar';
-// import { MatButtonModule } from '@angular/material/button';
-// import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports:  [ BrowserModule, 
