@@ -9,13 +9,18 @@ import { LayoutComponent } from './layout/layout.component';
 
 
 @NgModule({
-  imports:  [ BrowserModule, 
-              BrowserAnimationsModule,
-              FormsModule,
-              MyMaterialModule,
-            ],
-  declarations: [ AppComponent,
-                  LayoutComponent ],
-  bootstrap:    [ AppComponent ]
+  imports:  [ 
+    BrowserModule, 
+    BrowserAnimationsModule,
+    FormsModule,
+    MyMaterialModule,
+  ],
+  declarations: [ 
+    AppComponent,
+    LayoutComponent 
+  ],
+  bootstrap: [ 
+    AppComponent 
+  ]
 })
 export class AppModule { }
